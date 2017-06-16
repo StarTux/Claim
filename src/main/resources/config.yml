@@ -1,0 +1,11 @@
+ClaimWorlds:
+- world
+- world_nether
+- world_the_end
+WorldDisplayNames:
+  world: Overworld
+  world_nether: Nether
+  world_the_end: End
+ProtectUnclaimed: true
+MinimumClaimDistance: 256
+ClaimBlocksPerMinute: 8

@@ -1,0 +1,25 @@
+name: Claim
+description: Claim Land
+author: StarTux
+version: 0.1
+main: com.winthier.claim.ClaimPlugin
+depend: [ GenericEvents, PlayerCache ]
+commands:
+  claim:
+    aliases: [ claims ]
+    permission: claims.claim
+  claimadmin:
+    aliases: [ claimsadmin, ca ]
+    permission: claims.admin
+    description: |-
+      /ca reload - Reload config files
+      /ca save - Save config files
+  ignoreclaims:
+    permission: claims.admin
+    description: |-
+      /ignoreclaims [on|off] - Ignore or respect claims
+permissions:
+  claims.claim:
+    default: op
+  claims.admin:
+    default: op
